@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(watch2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myh1{
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    color: rgb(114, 26, 26);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+}
+#display{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(43, 39, 39);
+    text-shadow:2px 2px 2px rgb(59, 45, 45);
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius:10px ;
+    margin: 5px;
+    min-width: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;  
+    transition: background-color 0.5s ease;
+}
+#startbtn{
+    background-color: rgb(9, 245, 9);
+}
+#startbtn:hover{
+    background-color: rgb(29, 214, 54)
+}
+#stopbtn{
+    background-color:red ;
+}
+#stopbtn:hover{
+    background-color: rgb(235, 24, 24);
+}
+#resetbtn{
+    background-color: blue;
+}
+#resetbtn:hover{
+    background-color: rgb(20, 20, 187);
+}
